@@ -1,0 +1,42 @@
+body,
+html {
+  height: 100vh;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  background-color: #fff;
+  border: 1px solid #aaa;
+  padding: 32px;
+}
+.display {
+  border: 1px solid #ccc;
+  padding: 4px;
+  margin: 2px;
+  text-align: right;
+  height: 64px;
+  white-space: pre;
+}
+button {
+  width: 32px;
+  height: 32px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #ccc;
+  margin: 2px;
+}
